@@ -19,3 +19,6 @@ dist/
 htmlcov/
 .tox
 MANIFEST
+
+# Jetbrains
+.idea/
