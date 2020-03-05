@@ -52,16 +52,16 @@ PACKAGE = 'django_xworkflows'
 
 
 setup(
-    name=PACKAGE,
+    name=PACKAGE + '_3',
     version=get_version(PACKAGE),
     author="Raphaël Barrois",
     author_email="raphael.barrois+%s@polytechnique.org" % PACKAGE,
-    description="A django app enabling Django models to use xworkflows.",
+    description="A django app enabling Django models to use xworkflows. Compatible with django 3",
     long_description=clean_readme('README.rst'),
     license="BSD",
     keywords="django workflow state machine automaton",
-    url="http://github.com/rbarrois/django_xworkflows",
-    download_url="http://pypi.python.org/pypi/django-xworkflows/",
+    url="https://github.com/lethe3000/django_xworkflows",
+    download_url="http://pypi.python.org/pypi/django-xworkflows-3/",
     packages=find_packages(exclude=['dev', 'tests*']),
     cmdclass={'build_py': BuildWithMakefile},
     include_package_data=True,
